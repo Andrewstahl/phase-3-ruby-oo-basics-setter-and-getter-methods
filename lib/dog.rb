@@ -1,8 +1,8 @@
 require 'pry'
 
 class Dog
-  attr_accessor :breed
-  
+  # attr_accessor :breed
+
   # setter method
   def name=(name)
     @name = name
@@ -10,6 +10,15 @@ class Dog
   # getter method
   def name
     @name
+  end
+
+  # setter method
+  def breed=(breed)
+    @breed = breed
+  end
+  # getter method
+  def breed
+    @breed
   end
 
 end 
